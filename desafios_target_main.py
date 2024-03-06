@@ -9,9 +9,9 @@ while True:
 """)
     try: 
         escolha = int(input('Sua Escolha: '))
-        if escolha == 1:
+        if escolha == 0:
             fib.desafioFibonacci()
-        elif escolha == 2:
+        elif escolha == 1:
             Is.InverteString()
         elif escolha == 9:
             break
